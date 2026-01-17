@@ -2,7 +2,11 @@
 using namespace std;
 
 int main() {
-    int a = 5, b = 10;
+    int a , b ;
+    cout<<"enter first number";
+    cin>>a;
+    cout<<"enter Second number";
+    cin>>b;
     int sum = a + b;
 
     cout << "Sum is: " << sum << endl;
