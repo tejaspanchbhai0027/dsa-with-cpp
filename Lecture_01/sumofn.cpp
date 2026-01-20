@@ -3,13 +3,12 @@ using namespace std;
 int main()
 {
     int n,count=1,sum=0;
-    cout<<"Enter the size of N : ";
+    cout<<"enter the size of N : ";
     cin>>n;
-    while(count<=n)
+    while(n>=count)
     {
-        sum = sum + count;
+        sum=count+sum;
         count++;
     }
     cout<<sum;
-    return 0;
 }
